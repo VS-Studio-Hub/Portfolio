@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Link For Our CSS File-->
+        <link rel="stylesheet" href="./portfolio.css">
+        <!--CDN link for Bootstrap CSS bundle -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0"><!--Meta tag for responsiveness-->
+        <!--Bootstrap ICon CDN for Logo-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><!--API Link for Google Fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <!--AOS Package-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="page" >
+        <nav class="navbar navbar-expand-lg navigator justify-content-between">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <img src="./ChatGPT Image Jan 26, 2026, 04_36_44 PM.png" alt="logo" class="logo-img">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navigation">
+      <i class="bi bi-list hamburger px-1"></i>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto custom-nav ">
+        <li class="nav-item">
+          <a class="nav-link nav-box" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-box" href="#project">Project</a>
+        </li>
+         <li class="nav-item">
+           <a class="nav-link nav-box" href="#skills">Skills</a>
+        </li>
+         <li class="nav-item">
+           <a class="nav-link nav-box" href="#contact">Contact</a>
+        </li>
+
+        <li class="nav-item">
+           <a class="nav-link resume nav-box" href="./Resume-updated.pdf" target="_blank">Resume</a>
+        </li>
+       </ul> 
+      </nav> 
+
+<!--Offcanvas for mobile and tabs--> 
+  <div class="offcanvas offcanvas-end d-lg-none d-flex " id="navigation">
+        <div class="offcanvas-header bg-off">
+         
+            <a class="navbar-brand mx-auto" href="#">
+      <img src="./ChatGPT Image Jan 26, 2026, 04_36_44 PM.png" alt="logo" class="logo-img">
+        </div>
+
+    <div class="offcanvas-body bg-off">
+        
+            <ul class="navbar-nav ms-auto custom-nav ">
+        <li class="nav-item">
+          <a class="nav-link mx-auto" href="#about">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link mx-auto" href="#project">Project</a>
+        </li>
+         <li class="nav-item ">
+           <a class="nav-link mx-auto" href="#skills">Skills</a>
+        </li>
+         <li class="nav-item ">
+           <a class="nav-link mx-auto" href="#contact">Contact</a>
+        </li>
+
+        <li class="nav-item">
+           <a class="nav-link  mx-auto" href="./Resume-updated.pdf"  target="_blank">Resume</a>
+        </li>
+       </ul> 
+    </div>
+    </div>
+
+
+
+
+    <!--About Me-->
+    <section id="about">
+    <div class="container mx-auto p-5 about" data-aos="fade-down" data-aos-duration="2000" href="#about">
+      <div class="pt-5 pb-5 row">
+          <div class="col-lg-7 col-12">
+        <h1 class="text-start title">About Me</h1>
+        
+        <p class="text-start content">Gameplay Programmer specializing in C# and Unity, with experience developing gameplay systems, AI, and procedural generation.</p>
+        <p class="text-start content">Passionate about building engaging and scalable game experiences, and adaptable to working with different game engines.</p>
+      
+        
+        </div>
+        <div class="col-lg-3 col-12">
+            <img src="./IMG_0999.JPG.jpeg"  class="picture-about" >
+        </div>
+</div>
+   
+    
+    </div>
+    </section>
+   
+
+
+   <!--Body-->
+
+    <!--Unity -->
+    <Section id="project">
+      <div class="container mx-auto p-5 about" data-aos="fade-down" data-aos-duration="1000">
+      <h1 class="text-start title pb-5 pt-5">Unity</h1>
+      <div class="row p-5">
+        <div class="col-lg-2 col-sm-4">
+        <img src="./logo_GR.png" class="logo-game"></div>
+        <div class="col-lg-4 col-sm-3 my-auto">
+        <h2 class="card-title game-name">GALACTIC RUSH </h2><a href="https://vs-studio-hub.itch.io/galactic-rush" class="icons-single" style="color: gray;" title="play game" target="_blank"><i class="bi bi-controller"> </i>    click here to play</a></div>
+      </div>
+      <div class="row pt-5">
+        <p class="content">Galactic Rush is a fast-paced endless runner developed in Unity using C#. Players dodge obstacles, collect diamonds, and survive as long as possible while the game speed gradually increases. The game features power-ups, level progression, and a persistent save system for scores and upgrades.</p>
+      </div>
+
+      <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c1" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+       <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773965929/Galactic_Rush_1_wpeyve.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="carousel-item ">
+      <img src="./GR1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./GR-2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./GR-3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./GR-4.png" class="d-block w-100" alt="...">
+    </div>
+     <div class="carousel-item">
+      <img src="./GR-5.png" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+</div>
+        </div>
+      </div>
+
+      <hr style="color: gray;">
+  <!--Second game--> 
+<div class="row p-5">
+        <div class="col-lg-2 col-sm-4">
+        <img src="./logo_DR.png"  class="logo-game"></div>
+        <div class="col-lg-6 col-sm-3 my-auto">
+        <h2 class="card-title game-name">DAY & NIGHT - LAST SIGNAL</h2><!--<a href="https://vs-studio-hub.itch.io/galactic-rush" class="icons-single" style="color: gray;" title="play game" target="_blank"><i class="bi bi-controller"> </i>    click here to play</a></div> -->
+      </div>
+      <div class="row pt-5">
+        <p class="content">A first-person zombie survival game featuring combat, AI behavior, and mission-based gameplay. Implemented an FPS controller, enemy AI using state machines and NavMesh, and objective-driven systems. Developed a custom Unity editor tool to design and control zombie wave spawning directly in the editor, improving level design workflow and iteration speed.</p>
+      </div>
+ <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c2" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+       <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773965993/1_2_dnjpqe.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="carousel-item ">
+      <img src="./DR-img1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./tool.png" class="w-100 img-fluid" alt="...">
+    </div>
+    <!--<div class="carousel-item">
+      <img src="./Galactic Rush/3.png" class="d-block w-100" alt="...">
+    </div>
+     -->
+  </div>
+</div>
+        </div>
+      </div> 
+ <hr style="color: gray;">
+
+  <div class="row p-5">
+        <div class="col-lg-2 col-sm-4">
+        <img src="./logo_CA.png"  class="logo-game"></div>
+        <div class="col-lg-4 col-sm-3 my-auto">
+        <h2 class="card-title game-name">CANDY LAND ADVENTURE</h2><a href="https://vs-studio-hub.itch.io/candyland-adventure" class="icons-single" style="color: gray;" title="play game" target="_blank"><i class="bi bi-controller"> </i>    click here to play</a></div>
+      </div>
+      <div class="row pt-5">
+        <p class="content">Candyland Adventure is a colorful 2D platformer inspired by classic Mario-style gameplay, built in Unity. Players navigate handcrafted levels filled with traps, enemies, and platforming mechanics such as double jump and wall grabbing. The game includes checkpoints and collectible items that increase the player’s score.</p>
+      </div>
+ <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c3" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+        <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773965892/Candyland_g8cj0d.mp4" type="video/mp4">
+    </video> 
+    </div>
+    <div class="carousel-item  ">
+      <img src="./1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./3.png" class="d-block w-100" alt="...">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="./Candyland Adventure/Candyland Adventure/4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Candyland Adventure/Candyland Adventure/1.png" class="d-block w-100" alt="...">
+    </div> -->
+    
+  </div>
+</div>
+        </div>
+      </div>
+<hr style="color: gray;">
+
+     
+
+    </Section>
+     
+<!--UNReal Engine-->
+<Section class="">
+      <div class="container mx-auto ps-5 pe-5 about" data-aos="fade-down" data-aos-duration="2000">
+      <h1 class="text-start title pb-5 pt-5">Unreal Engine</h1>
+      <div class="row p-5">
+        <!-- <div class="col-lg-2 col-12">
+        <img src="./WCCFunrealengine59.jpg"  class="logo-game"></div> -->
+        <div class="col-lg-6 col-12 my-auto">
+        <h2 class="card-title game-name">Horror Cave Environment</h2>
+        <!-- <a href="https://vs-studio-hub.itch.io/galactic-rush" class="icons-single" style="color: white;" title="play game" target="_blank"><i class="bi bi-controller"></i></a></div> -->
+      </div>
+      <div class="row pt-5">
+        <p class="content">A cinematic horror cave environment created using Unreal Engine 5. The project focuses on atmospheric lighting, environment composition, and realistic materials to create a dark and immersive scene.</p>
+      </div>
+
+      <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c4" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+       <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773965969/UNREAL_ENGINE_5_CINEMATIC_ENVIRONMENT_-_HORROR_CAVE_-_Versatile.Venthan_1080p_h264_tlh4ew.mp4" type="video/mp4">
+    </video>
+    </div>
+    <!-- <div class="carousel-item ">
+      <img src="./Galactic Rush/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Galactic Rush/2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Galactic Rush/3.png" class="d-block w-100" alt="...">
+    </div> -->
+    
+  </div>
+</div>
+        </div>
+      </div>
+       <hr style="color: gray;">
+      
+  <!--Second game-->
+<div class="row p-5">
+        <!-- <div class="col-lg-2 col-12">
+        <img src="./WCCFunrealengine59.jpg"  class="logo-game"></div> -->
+        <div class="col-lg-10 col-12 my-auto">
+        <h2 class="card-title game-name">GENSHIN IMPACT INSPIRED ENVIRONMENT (FAN MADE)</h2>
+        <!-- <a href="https://vs-studio-hub.itch.io/galactic-rush" class="icons-single" style="color: white;" title="play game" target="_blank"><i class="bi bi-controller"></i></a></div> -->
+      </div>
+      <div class="row pt-5">
+        <p class="content">A stylized fantasy environment inspired by Genshin Impact, created in Unreal Engine 5. The project focuses on stylized lighting, environment design, and cinematic presentation.</p>
+      </div>
+ <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c4" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+       <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773965972/genshin_rqkkdf.mp4" type="video/mp4">
+    </video>
+    </div>
+    <!-- <div class="carousel-item ">
+      <img src="./Galactic Rush/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Galactic Rush/2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Galactic Rush/3.png" class="d-block w-100" alt="...">
+    </div> -->
+    
+  </div>
+</div>
+        </div>
+      </div>
+       <hr style="color: gray;"> 
+
+<!--3rd Game-->
+  <div class="row p-5">
+        <div class="col-lg-2 col-sm-4">
+        <img src="./HIdden_logo.png"  class="logo-game"></div>
+        <div class="col-lg-6 col-sm-3 my-auto">
+        <h2 class="card-title game-name">HIDDEN VILLAGE OF THE PEAK</h2><!--<a href="https://vs-studio-hub.itch.io/galactic-rush" class="icons-single" style="color: gray;" title="play game" target="_blank"><i class="bi bi-controller"> </i>    click here to play</a>--></div>
+      </div>
+      <div class="row pt-5">
+        <p class="content">A Japanese-inspired mountain village environment developed for Ubisoft NEXT, focused on environmental storytelling and player-guided exploration. Crafted level flow using elevation, pathways, and focal points to naturally direct player movement. Combined lighting, composition, and cultural detail to deliver an immersive and visually cohesive experience.</p>
+      </div>
+ <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c5" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+       <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773966770/Leveldesign01_quxxfj.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="carousel-item ">
+      <img src="./HighresScreenshot00000.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./HighresScreenshot00001.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./HighresScreenshot00002.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./HighresScreenshot00003.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./HighresScreenshot00004.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./HighresScreenshot00005.png" class="d-block w-100" alt="...">
+    </div>
+    
+    
+  </div>
+</div>
+        </div>
+      </div>
+
+
+      </div>
+ <hr style="color: gray;">
+    </Section>
+
+  <!--Capstone-->
+
+
+    
+    <div class="container mx-auto p-5 about" data-aos="fade-down" data-aos-duration="3000">
+      <h1 class="text-start title pb-5 pt-5">Capstone</h1>
+      <div class="row p-5">
+        <div class="col-lg-2 col-sm-4">
+        <img src="./Nebula_logo.png"  class="logo-game"></div>
+        <div class="col-lg-6 col-sm-3 my-auto">
+        <h2 class="card-title game-name">Nebula</h2><!--<a href="https://vs-studio-hub.itch.io/galactic-rush" class="icons-single" style="color: gray;" title="play game" target="_blank"><i class="bi bi-controller"> </i>    click here to play</a>--></div>
+      </div>
+       <div class="row pt-5">
+        <p class="content">A music-driven rhythm game featuring multi-lane note mechanics synchronized to dynamic audio. Designed and developed core gameplay systems including progression, scoring, and interactive UI. Focused on delivering responsive feedback and engaging player experience through polished mechanics and visual effects.</p>
+      </div>
+ <div class="row p-5">
+        <div class="col-12 ">
+          <div id="c6" class="carousel slide "data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+       <video  class="d-block w-100 scroll-video" controls muted>
+      <source src="https://res.cloudinary.com/deppyvbzi/video/upload/v1773969390/Capstone_zkgmgo.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="carousel-item ">
+      <img src="./CAP1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./CAP2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./CAP3.png" class="d-block w-100" alt="...">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="./Candyland Adventure/Candyland Adventure/4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Candyland Adventure/Candyland Adventure/1.png" class="d-block w-100" alt="...">
+    </div> -->
+    
+  </div>
+</div>
+        </div>
+      </div>
+      </div>
+
+<hr class="icons-single">
+  
+
+
+    
+<!--Skills & Experience-->
+
+<section id="skills" >
+
+      <div class="container mx-auto p-5 about" data-aos="fade-up-left" data-aos-duration="1000">
+      <h1 class="text-start title pb-5 pt-5">Skills Set</h1>
+      <h2 class="card-title game-name">Game Engines</h2>
+      <p class="content">Unity (2D/3D, WebGL), Unreal Engine (Basic)</p>
+       <h2 class="card-title game-name">Programming:</h2>
+      <p class="content">C#, JavaScript, HTML/CSS, OOPS</p>
+       <h2 class="card-title game-name">Gameplay Systems:</h2>
+      <p class="content">Player Controllers, AI (State Machines, NavMesh)
+Procedural Generation, Physics-based Mechanics
+Mission & Progression Systems, UI Systems
+Data Persistence (PlayerPrefs)</p>
+
+       <h2 class="card-title game-name">Tools</h2>
+       <p class="content">Git, GitHub, Visual Studio</p>
+
+  </div>
+  
+</section>
+
+
+
+  <div class="container mx-auto p-5 about" data-aos="fade-down" data-aos-duration="2000">
+      <h1 class="text-start title pb-5 pt-5">Professional Experience</h1>
+
+      <h2 class="card-title game-name pt-5">Roto Artist (Internship) - Feb 2022 – Jul 2022</h2>
+       <p style="color: gray; font-size: 20px;font-family:'Poppins', sans-serif;">PixStone Images Pvt Ltd</p>
+       <ul>
+        <li class="content">Performed rotoscoping tasks to isolate objects and characters for visual effects production.</li>
+        <li class="content">Utilized Nuke to refine footage and assist in compositing workflows.</li>
+        <li class="content">Worked with the VFX team to ensure accurate frame-by-frame masking and maintain production quality</li>
+       </ul>
+       <h2 class="card-title game-name pt-5">Graphic Designer & Social Media Handler - Aug 2022 – Jul 2024</h2>
+   
+       <p style="color: gray; font-size: 20px;font-family:'Poppins', sans-serif;">Grace Rubber Bands and Eco Products and Exports</p>
+       <ul>
+        <li class="content">Designed marketing graphics and promotional materials to improve brand visibility and customer engagement.</li>
+        <li class="content">Managed company social media platforms by creating and scheduling content to maintain consistent branding.</li>
+        <li class="content">Used Adobe Photoshop and Illustrator to create high-quality visuals and collaborated with the marketing team to support campaign goals</li>
+       </ul>
+   
+
+
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="contact">
+  <div class="container mx-auto p-5 about" data-aos="fade-down" data-aos-duration="2000">
+    
+    <h1 class="text-start title pb-4 pt-4">Let’s Connect</h1>
+
+    <div class="row g-4 pt-3">
+
+      <!-- Email -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <p class="content">
+          <strong>
+            E-Mail 
+            <img src="./email-3.png" style="height:20px;">
+          </strong><br>
+          venthanf@gmail.com
+        </p>
+
+        <!-- <a class="icons-single" style="color: gray;" title="play game"  href="mailto:venthanf@gmail.com">
+          Email Me
+        </a> -->
+      </div>
+
+      <!-- Contact -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <p class="content">
+          <strong>
+            Contact 
+            <img src="./Call-PNG-Pic.png" style="height:20px;">
+          </strong><br>
+          +1 (647) 473-2198
+        </p>
+      </div>
+
+      <!-- GitHub -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <p class="content">
+          <strong>
+            GitHub 
+            <img src="./github_PNG28.png" style="height:20px;">
+          </strong><br>
+          <a href="https://github.com/VS-Studio-Hub" target="_blank" class="icons-single" style="color: gray;" title="play game" >
+            Visit Profile
+          </a>
+        </p>
+      </div>
+
+      <!-- ArtStation -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <p class="content">
+          <strong>
+            Artstation 
+            <img src="./logo-artstation-plain-f084302dffa448a1582a8f7afb171673d1a420f9eddd5baeacbdb88e65089599.png" style="height:20px;">
+          </strong><br>
+          <a href="https://www.artstation.com/venthanfrancis5" target="_blank" class="icons-single" style="color: gray;" title="play game" >
+            View Work
+          </a>
+        </p>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <p class="content">
+          <strong>
+            LinkedIn 
+            <img src="./Linkedin-símbolo.png" style="height:20px;">
+          </strong><br>
+          <a href="https://www.linkedin.com/in/venthan-francis-michael-prakash/" target="_blank" class="icons-single" style="color: gray;" title="play game" >
+            Connect
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<hr style="color: gray;">
+<footer class=" text-light py-4">
+  <div class="container text-center">
+
+    <div class="mb-3">
+      <a href="#home" class="text-light text-decoration-none me-3">Home</a>
+      <a href="index.html" class="text-light text-decoration-none me-3">About</a>
+      <a href="#project" class="text-light text-decoration-none me-3">Projects</a>
+      <a href="#contact" class="text-light text-decoration-none">Contact</a>
+    </div>
+
+    <div class="mb-2">
+      <a href="mailto:venthanf@gmail.com" class="text-light text-decoration-none">
+        venthanf@gmail.com
+      </a>
+    </div>
+
+    <div class="mb-2">
+      +1 (647) 473-2198
+    </div>
+
+    <div>
+      © 2026 venthan-francis-michael-prakash
+    </div>
+
+  </div>
+</footer>
+</div>
+
+
+
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+       <script>
+const videos = document.querySelectorAll(".scroll-video");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    const video = entry.target;
+
+    if (entry.isIntersecting) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+}, { threshold: 0.6 });
+
+videos.forEach(video => observer.observe(video));
+</script>
+
+<script>
+document.querySelectorAll(".scroll-video").forEach(video => {
+
+  video.addEventListener("fullscreenchange", () => {
+    if (document.fullscreenElement) {
+      video.muted = false;   // 🔊 unmute in fullscreen
+    } else {
+      video.muted = true;    // 🔇 mute when exiting fullscreen
+    }
+  });
+
+});
+</script>
+
+    </body>
+
+
+
+
+
+  
+
+    </html>
